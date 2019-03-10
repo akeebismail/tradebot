@@ -5,6 +5,7 @@ from typing import List, NamedTuple, Optional
 import arrow
 from trade import __version__, constant
 
+
 class TimeRange(NamedTuple):
     """
     NamedTuple Defining timerange inputs.
@@ -404,3 +405,4 @@ class Arguments(object):
             dest='erase',
             action='store_true'
         )
+
